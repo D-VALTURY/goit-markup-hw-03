@@ -1,13 +1,33 @@
-.features-container > h2 {
+.features-container ul {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.features-container ul li {
+  width: calc((100% - 72px) / 4);
+}
+
+.features-container h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-}
-
-.features-container li > h3 {
+  text-align: center;
+  margin-bottom: 72px;
   color: #2e2f42;
 }
 
-.features-container li > p {
+.features-container li h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.features-container li p {
+  font-size: 16px;
+  line-height: 1.5;
   color: #434455;
 }

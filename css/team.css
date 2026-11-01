@@ -1,14 +1,29 @@
 .team-container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-section {
   background-color: #f4f4fd;
 }
 
-.team-container h2 {
-  color: #2e2f42;
-  text-align: center;
+.team-container ul {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 72px 0;
 }
 
-.team-container li {
+.team-container ul li {
+  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.team-container > h2 {
+  color: #2e2f42;
+  text-align: center;
 }
 
 .team-container li > h3 {

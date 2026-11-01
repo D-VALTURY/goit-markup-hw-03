@@ -1,3 +1,14 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -6,27 +17,46 @@
   text-transform: uppercase;
   line-height: 1.33;
   letter-spacing: 0.03em;
+  margin-right: 76px;
 }
 
 .logo > span {
   color: #4d5ae5;
 }
-.top-menu {
-  font-weight: 500;
-  color: #2e2f42;
+
+.header-nav ul {
+  display: flex;
+  gap: 40px;
 }
 
-.top-menu ul li a:hover,
-.top-menu ul li a:focus,
-.top-menu ul li a:active {
-  color: #404bbf;
+.header-nav ul > li {
+  display: block;
+  padding: 24px 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
 }
 
 .top-adress {
   font-style: normal;
 }
 
-.top-adress ul li a:hover,
-.top-adress ul li a:focus {
+.top-adress ul {
+  display: flex;
+  gap: 40px;
+}
+
+.top-adress a {
+  display: block;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+.header-nav a:hover,
+.header-nav a:focus,
+.top-adress a:hover,
+.top-adress a:focus {
   color: #404bbf;
 }

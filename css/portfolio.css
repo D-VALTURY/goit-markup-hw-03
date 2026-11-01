@@ -1,9 +1,41 @@
-.portfolio-container h2 {
-  color: #2e2f42;
-  text-align: center;
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.portfolio-container h3 {
+.portfolio-container > h2 {
+  text-align: center;
+  margin-bottom: 72px;
   color: #2e2f42;
-  line-height: 1.2;
+}
+
+.portfolio-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio-container ul li {
+  width: calc((100% - 48px) / 3);
+  box-sizing: border-box;
+}
+
+.portfolio-card {
+  padding: 33px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.portfolio-container ul li h3 {
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.portfolio-container ul li p {
+  color: #434455;
+  margin: 0;
 }
