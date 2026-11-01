@@ -11,14 +11,13 @@
 .team-container ul {
   display: flex;
   gap: 24px;
-  margin: 0;
-  padding: 72px 0;
+  margin: 8px;
 }
 
 .team-container ul li {
   width: calc((100% - 72px) / 4);
   background-color: #ffffff;
-  border-radius: 5px;
+  border-radius: 0 0 4px 4px;
 }
 
 .team-container > h2 {
