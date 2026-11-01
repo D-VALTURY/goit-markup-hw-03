@@ -1,0 +1,22 @@
+.footer-container {
+  background-color: #2e2f42;
+}
+
+.footer-container > a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+  text-transform: uppercase;
+}
+
+.footer-container > a > span {
+  color: #4d5ae5;
+}
+
+.footer-container > p {
+  color: #f4f4fd;
+  font-weight: 400;
+}

@@ -1,0 +1,32 @@
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #2e2f42;
+  text-transform: uppercase;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+}
+
+.logo > span {
+  color: #4d5ae5;
+}
+.top-menu {
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.top-menu ul li a:hover,
+.top-menu ul li a:focus,
+.top-menu ul li a:active {
+  color: #404bbf;
+}
+
+.top-adress {
+  font-style: normal;
+}
+
+.top-adress ul li a:hover,
+.top-adress ul li a:focus {
+  color: #404bbf;
+}

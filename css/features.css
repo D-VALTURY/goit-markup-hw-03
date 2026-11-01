@@ -1,0 +1,13 @@
+.features-container > h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+.features-container li > h3 {
+  color: #2e2f42;
+}
+
+.features-container li > p {
+  color: #434455;
+}

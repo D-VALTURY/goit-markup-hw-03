@@ -1,0 +1,22 @@
+.team-container {
+  background-color: #f4f4fd;
+}
+
+.team-container h2 {
+  color: #2e2f42;
+  text-align: center;
+}
+
+.team-container li {
+  background-color: #ffffff;
+}
+
+.team-container li > h3 {
+  color: #2e2f42;
+  text-align: center;
+}
+
+.team-container li > p {
+  color: #434455;
+  text-align: center;
+}
