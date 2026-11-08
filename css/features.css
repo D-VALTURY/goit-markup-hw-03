@@ -1,33 +1,27 @@
-.features-container ul {
+.features-list {
   display: flex;
   gap: 24px;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
-.features-container ul li {
+.features-item {
   width: calc((100% - 72px) / 4);
 }
 
-.features-container h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  margin-bottom: 72px;
-  color: #2e2f42;
-}
-
-.features-container li h3 {
+.features-subtitle {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   color: #2e2f42;
   margin-bottom: 8px;
+  margin-top: 0;
 }
 
-.features-container li p {
+.features-text {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
+  margin: 0;
 }
